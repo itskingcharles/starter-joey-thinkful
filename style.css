@@ -95,7 +95,7 @@ body {
         justify-content: space-between;
 
         /* Adds 0 pixels padding to the top and bottom, 30 pixels of padding left and right. */
-        margin: 0 30px;
+        margin: 0 30px;        
     }
 
     header h1 {
@@ -104,6 +104,9 @@ body {
 
         /* Removes or sets 0 pixels of padding above the `h1`. */
         padding-top: 0;
+
+        /* Adds 20 pixels of padding to left */
+        padding-left: 20px;        
 
         /* Title font-size set to 52 pixels. */
         font-size: 52px;
@@ -118,6 +121,9 @@ body {
     header nav {
         /* Users cannot hover on mobile devices, so that is why you implement this behavior only for larger screens. */
         margin-top: 20px;
+
+        /* Adds 20 pixels of padding to right */
+        padding-right: 20px;
     }
 }
 
